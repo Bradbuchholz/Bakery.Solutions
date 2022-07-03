@@ -1,5 +1,5 @@
 # Pierre's Bakery
-_Brad Buchholz_
+_By Brad Buchholz_
 ## Description
 
 _Create a C# console application for a bakery that includes the following functionality:_
