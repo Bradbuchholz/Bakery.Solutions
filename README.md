@@ -25,11 +25,12 @@ _Pierre offers the following deals:_
 
 ## Setup / Installation 
 
-1. Clone the GitHub [repository](https://github.com/Bradbuchholz/Bakery.Solutions.git) onto your computer.
-2. Navigate to the directory via teriminal and use the command **`code .`** to open the program in your code editor.
-3. Once the program is open in your code editor, run **`dotnet restore Bakery.Test.csproj`** in your terminal to set up the project.
-4. After the project is setup, navigate to the **`Bakery`** folder in your terminal.
-5. Use the command **`dotnet run`** to start the console app, and then follow the propmts to buy some bread and pastries! 
+1. Download and install **`dotnet 5.0`** on your computer. 
+2. Clone the GitHub [repository](https://github.com/Bradbuchholz/Bakery.Solutions.git) onto your computer.
+3. Navigate to the directory via teriminal and use the command **`code .`** to open the program in your code editor.
+4. Once the program is open in your code editor, run **`dotnet restore Bakery.Test.csproj`** in your terminal to set up the project.
+5. After the project is setup, navigate to the **`Bakery`** folder in your terminal.
+6. Use the command **`dotnet run`** to start the console app, and then follow the propmts to buy some bread and pastries! 
 
 ## Known Bugs 
 * Currently no known bugs. 
