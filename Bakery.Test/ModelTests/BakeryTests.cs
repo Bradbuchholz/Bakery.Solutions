@@ -32,6 +32,13 @@ namespace Bakery.Tests
       int result = newOrder.OrderTotal();
       Assert.AreEqual( 5, result);
     }
+    [TestMethod]
+    public void OrderCost_GetsADealIfEvenNumber_Int(){
+      int breadOrder = 10;
+      Bread newOrder = new Bread(breadOrder);
+      int result = newOrder.OrderTotal();
+      Assert.AreEqual(30, result);
+    }
 
     [TestClass]
     public class PastryTests
