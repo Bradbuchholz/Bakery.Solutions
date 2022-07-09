@@ -33,6 +33,6 @@ _Pierre offers the following deals:_
 6. Use the command **`dotnet run`** to start the console app, and then follow the propmts to buy some bread and pastries! 
 
 ## Known Bugs 
-* Currently no known bugs. 
+* Currently program will end once the order has been placed. 
 ## License
 _Copyright (c) Brad Buchholz_
