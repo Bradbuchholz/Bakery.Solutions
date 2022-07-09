@@ -13,9 +13,9 @@ namespace Bakery.Models
     }
     public int OrderTotal()
     {
-      if (BreadOrder % 3 == 0)
+      if (BreadOrder >= 3)
       {
-        int totalPrice = (BreadOrder - (BreadOrder / 3)) * 5;
+        int totalPrice = (BreadOrder * 5) - (int)Math.Floor((decimal)(BreadOrder/3) *5);
         return totalPrice;
       }
       else if (BreadOrder >= 25)
